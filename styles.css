@@ -1,0 +1,208 @@
+:root {
+  --main-color: #30833b;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background: #fafafa;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*NAVBAR*/
+.navbar {
+  background-color: var(--main-color);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  font-weight: 200;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*hero*/
+.hero {
+  height: 100vh;
+  background: var(--main-color);
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text {
+  /*TAGLINE UNDER NAME*/
+  font-weight: 400;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.hero-text h1 {
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.hero-text p {
+  margin: 0;
+}
+
+/*SOCIAL LINKS*/
+.ul-social {
+  text-align: center;
+  padding-left: 0;
+}
+
+.li-social-links {
+  display: inline-block;
+  list-style: none;
+}
+
+.social {
+  font-size: 2em;
+  color: white;
+  padding: 20px;
+}
+
+/*ARROW LINK*/
+#down-arrow {
+  color: white;
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+/*CONTENT*/
+.container {
+  /*use flexbox*/
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.white {
+  background: white;
+}
+
+.main-content {
+  width: 80%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.main-content-lg {
+  width: 90%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 2rem;
+  color: var(--main-color);
+  text-align: center;
+}
+
+.content-body {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+/*EDUCATION*/
+.card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom: 30px;
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.card-content {
+  padding: 0.25rem 1.25rem;
+  flex: 1 1 auto;
+}
+
+h4 {
+  margin: 0;
+  font-weight: 400;
+  color: grey;
+}
+
+.job-title {
+  float: right;
+}
+
+/*PROJECTS*/
+.project-card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+  flex: 1 0 auto;
+}
+
+.project-image img {
+  display: block;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.project-content {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*CONTACT*/
+.blue {
+  background: var(--main-color);
+  text-align: center;
+}
+
+.white-text {
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+}
